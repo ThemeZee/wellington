@@ -26,6 +26,9 @@ For more information about Wellington please go to https://themezee.com/themes/w
 
 == Changelog ==
 
+= 2.1.7 - 2022-08-23 =
+* updated footer credit link
+
 = 2.1.6 - 2022-07-12 =
 * added block support for custom spacing and line heights
 * improved styling of columns block
