@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /*
  * Editor Styles
  *
@@ -109,9 +111,9 @@ body.block-editor-page .editor-post-title__block .editor-post-title__input {
 	color: var(--title-color);
 	font-size: 36px;
 	font-size: 2.25rem;
-	font-family: "Magra", arial, helvetica, sans-serif;
+	font-family: Magra, arial, helvetica, sans-serif;
 	font-family: var(--title-font);
-	font-weight: bold;
+	font-weight: 700;
 	font-weight: var(--title-font-weight);
 	text-transform: none;
 	text-transform: var(--title-text-transform);
@@ -163,7 +165,7 @@ body.wellington-page-title-hidden.block-editor-page .edit-post-visual-editor .ed
 	color: var(--text-color);
 	font-size: 17px;
 	font-size: 1.0625rem;
-	font-family: "Gudea", arial, helvetica, sans-serif;
+	font-family: Gudea, arial, helvetica, sans-serif;
 	font-family: var(--text-font);
 	line-height: 1.75;
 	line-height: var(--text-line-height);
@@ -320,7 +322,7 @@ body.wellington-page-title-hidden.block-editor-page .edit-post-visual-editor .ed
 	display: block;
 	color: #303030;
 	color: var(--text-color);
-	font-family: "Gudea", arial, helvetica, sans-serif;
+	font-family: Gudea, arial, helvetica, sans-serif;
 	font-family: var(--text-font);
 	font-size: 16px;
 	font-size: 1rem;
@@ -331,7 +333,7 @@ body.wellington-page-title-hidden.block-editor-page .edit-post-visual-editor .ed
 .wp-block-quote__citation::before,
 .wp-block-pullquote__citation::before,
 .wp-block-pullquote cite::before {
-	content: "\2014\00a0";
+	content: "— ";
 }
 
 .wp-block-pullquote:not(.is-style-solid-color) .wp-block-pullquote__citation {
@@ -381,7 +383,7 @@ body.wellington-page-title-hidden.block-editor-page .edit-post-visual-editor .ed
 }
 
 .editor-styles-wrapper th {
-	font-weight: normal;
+	font-weight: 400;
 	text-align: initial;
 	background: rgba(0, 0, 0, 0.05);
 }
@@ -438,7 +440,7 @@ p.has-background {
 .has-drop-cap:not(:focus)::first-letter {
 	font-size: 4.5rem;
 	line-height: 0.7;
-	font-weight: bold;
+	font-weight: 700;
 }
 
 /* Code Block */
@@ -784,9 +786,9 @@ div.wp-block-columns {
 	color: var(--widget-title-color);
 	font-size: 20px;
 	font-size: 1.25rem;
-	font-family: "Magra", arial, helvetica, sans-serif;
+	font-family: Magra, arial, helvetica, sans-serif;
 	font-family: var(--widget-title-font);
-	font-weight: bold;
+	font-weight: 700;
 	font-weight: var(--widget-title-font-weight);
 	text-transform: none;
 	text-transform: var(--widget-title-text-transform);
@@ -957,7 +959,7 @@ div.wp-block-columns {
 
 .tz-magazine-block .tz-magazine-thumbnail-list .tz-entry-title {
 	font-size: 16px;
-	font-size: 1.0rem;
+	font-size: 1rem;
 }
 
 .tz-magazine-block .tz-entry-meta {
@@ -1007,7 +1009,7 @@ div.wp-block-columns {
 
 	.tz-magazine-block .tz-magazine-thumbnail-list .tz-entry-title {
 		font-size: 16px;
-		font-size: 1.0rem;
+		font-size: 1rem;
 	}
 
 	.tz-magazine-block .tz-magazine-grid-columns-4 .tz-entry-title {
@@ -1074,9 +1076,9 @@ div.wp-block-columns {
 	color: var(--title-color);
 	font-size: 24px;
 	font-size: 1.5rem;
-	font-family: "Magra", arial, helvetica, sans-serif;
+	font-family: Magra, arial, helvetica, sans-serif;
 	font-family: var(--title-font);
-	font-weight: bold;
+	font-weight: 700;
 	font-weight: var(--title-font-weight);
 	text-transform: none;
 	text-transform: var(--title-text-transform);
@@ -1121,7 +1123,7 @@ div.wp-block-columns {
 	margin: 0 1rem;
 	color: #999;
 	color: var(--light-text-color);
-	content: "\2013";
+	content: "–";
 }
 
 .edit-post-visual-editor .tz-magazine-block .tz-entry-meta > .tz-meta-field:last-child::after {
@@ -1181,7 +1183,7 @@ div.wp-block-columns {
 }
 
 .edit-post-visual-editor .tz-magazine-block .tz-more-link::after {
-	content: " \00BB";
+	content: " »";
 }
 
 @media only screen and (min-width: 960px) {
