@@ -69,7 +69,8 @@ if ( ! function_exists( 'wellington_slider_image' ) ) :
 				</figure>
 			</a>
 
-		<?php endif;
+			<?php
+		endif;
 	}
 endif;
 
@@ -80,7 +81,7 @@ if ( ! function_exists( 'wellington_slider_meta' ) ) :
 	 */
 	function wellington_slider_meta() {
 
-		$postmeta = wellington_meta_date();
+		$postmeta  = wellington_meta_date();
 		$postmeta .= wellington_meta_author();
 
 		echo '<div class="entry-meta">' . $postmeta . '</div>';

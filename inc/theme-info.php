@@ -147,10 +147,15 @@ function wellington_theme_info_page() {
 
 		<div id="theme-author">
 
-			<p><?php printf( esc_html__( '%1$s is proudly brought to you by %2$s. If you like this theme, %3$s :)', 'wellington' ),
+			<p>
+			<?php
+			printf(
+				esc_html__( '%1$s is proudly brought to you by %2$s. If you like this theme, %3$s :)', 'wellington' ),
 				$theme->display( 'Name' ),
 				'<a target="_blank" href="' . __( 'https://themezee.com/', 'wellington' ) . '?utm_source=theme-info&utm_medium=footer&utm_campaign=wellington" title="ThemeZee">ThemeZee</a>',
-				'<a target="_blank" href="' . __( 'https://wordpress.org/support/theme/wellington/reviews/', 'wellington' ) . '" title="' . esc_attr__( 'Review Wellington', 'wellington' ) . '">' . esc_html__( 'rate it', 'wellington' ) . '</a>'); ?>
+				'<a target="_blank" href="' . __( 'https://wordpress.org/support/theme/wellington/reviews/', 'wellington' ) . '" title="' . esc_attr__( 'Review Wellington', 'wellington' ) . '">' . esc_html__( 'rate it', 'wellington' ) . '</a>'
+			);
+			?>
 			</p>
 
 		</div>
